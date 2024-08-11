@@ -10,6 +10,7 @@ interface IParams {
   };
 }
 
+// Dynamic metadata generation
 export async function generateMetadata({
   params: { id },
 }: IParams): Promise<Metadata> {

@@ -1,5 +1,6 @@
 const URL = process.env.NEXT_PUBLIC_API_URL;
 
+// Fetch all movies
 export async function getMovies() {
   console.log("Fetching movies...");
 
@@ -7,6 +8,7 @@ export async function getMovies() {
   return response.json();
 }
 
+// Fetch a movie by id
 export async function getMovie(id: string) {
   console.log(`Fetching movie ${id}...`);
 
@@ -14,6 +16,7 @@ export async function getMovie(id: string) {
   return response.json();
 }
 
+// Fetch videos for a movie by id
 export async function getVideos(id: string) {
   console.log(`Fetching videos for movie ${id}...`);
 
