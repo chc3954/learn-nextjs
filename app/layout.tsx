@@ -6,7 +6,7 @@ import Nav from "@/components/nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: { template: "%s | Next Movies", default: "Loading..." },
+  title: { template: "%s | Next Movies", default: "Next Movies" },
   description: "Learning Next.js is fun!",
 };
 
